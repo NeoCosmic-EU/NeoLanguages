@@ -26,6 +26,8 @@ public class Database {
         config.setIdleTimeout(60000);
 
         dataSource = new HikariDataSource(config);
+
+        createTable();
     }
 
     public HikariDataSource getDataSource() {
