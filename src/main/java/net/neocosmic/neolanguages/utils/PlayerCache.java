@@ -18,7 +18,7 @@ public class PlayerCache {
             playerLanguages.put(player, PlayerLanguage.getDefault());
         }
 
-        return playerLanguages.getOrDefault(player, PlayerLanguage.getDefault());
+        return playerLanguages.get(player);
     }
 
     public void setPlayerLanguage(@NotNull UUID player, @NotNull PlayerLanguage language, boolean shouldUpdateIntoDB) {
