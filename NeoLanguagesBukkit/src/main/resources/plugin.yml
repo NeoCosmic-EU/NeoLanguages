@@ -1,0 +1,3 @@
+name: NeoLanguagesBukkit
+version: '${version}'
+main: net.neocosmic.neolanguagesbukkit.NeoLanguagesBukkit
